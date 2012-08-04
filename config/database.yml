@@ -1,0 +1,22 @@
+setup: &setup
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: mail_sandbox
+  password:
+
+development:
+  <<: *setup
+  database: mail_sandbox_development
+
+staging:
+  <<: *setup
+  database: mail_sandbox_staging
+
+test:
+  <<: *setup
+  database: mail_sandbox_test
+
+production:
+  <<: *setup
+  database: mail_sandbox_production

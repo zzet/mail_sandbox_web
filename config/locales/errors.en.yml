@@ -1,0 +1,25 @@
+---
+en:
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              email: "has wrong format"
+  activemodel:
+    errors:
+      models:
+        user_sign_in_type:
+          attributes:
+            email:
+              email: "wrong format"
+              user_new: "email is not confirmed"
+              user_inactive: "user is not active"
+            password:
+              user_or_password_invalid: "wrong password"
+        user_reset_password_type:
+          attributes:
+            email:
+              email: "has wrong format"
+              user_new: "User was not confirmed"

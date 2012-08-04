@@ -1,0 +1,20 @@
+---
+en:
+  'are_you_sure?': "Are you sure?"
+  web:
+
+  views:
+    pagination:
+      first: '«'
+      last: '»'
+      next: '›'
+      previous: '‹'
+
+  new: New
+  edit: Edit
+  show: Show
+  delete: Delete
+  read: Read
+  delete_selected: "Delete selected"
+  read_selected: "Read selected"
+  mark_all_as_read: Mark all as read
